@@ -2,96 +2,103 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Eloi Tanguy
     - name: Date of Birth
-      value: 14th March 1879
+      value: 15th August 1999
     - name: Languages
-      value: English, German
+      value: English, French, Spanish, <small> Mandarin Chinese </small>
+    - name: Contact
+      value: eloi.tanguy 'at' u-paris 'dot' fr
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Université Paris-Cité, laboratoire MAP5
+      year: 2022 - now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Generalised Wasserstein Barycentres
+        - Optimal Transport between Gaussian Mixture Models
+        - title: Under the supervision of
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Julie Delon (Professeur des Universités, MAP 5, Université Paris Cité)
+            - Agnès Desolneux (Directrice de Recherche CNRS at Centre Borelli and tenure Professor at ENS Paris-Saclay)
+    
+    - title: Masters Degree
+      institution: Mathematics, Vision and Learning ("Master MVA"), ENS Paris-Saclay
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Deep Learning (Vision, NLP, Graphs)
+        - Optimal Transport
+        - Optimisation
+        - Statistics
+    
+    - title: Ecole d'Ingénieur
+      institution: Ecole Polytechnique
+      year: 2018 - 2021
+      description:
+        - Specialisation in Pure and Applied Mathematics.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Internship
+      institution: MAP5, Université Paris-Cité
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Generalised Wasserstein Barycentres and the Sliced Wasserstein Distance.
+        - title: Under the supervision of
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Julie Delon (Professeur des Universités, sMAP 5, Université Paris Cité)
+            - Rémi Flamary (Tenure Professor at CMAP, Ecole Polytechnique)
+    
+    - title: Research Internship
+      institution: DIG-INFRES, Télécom Paris
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Extracting structured information from raw Wikipedia text using Deep Learning.
+        - title: Under the supervision of
+          contents:
+            - Tiphaine Viard (Associate Professor at DIG, Télécom Paris)
+            - Thomas Bonald (Tenure Professor at DIG, Télécom Paris)
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Company Internship
+      institution: Stereolabs
+      year: 2020
       description:
+        - Human pose estimation with CNNs.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Teaching Assistant
+      institution: Université de Technologie du Cambodge
+      year: 2018
+      description:
+        - Teaching full-time gifted undergraduate students as preparation for the Ecole Polytechnique entry exams.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: <a href="https://github.com/PythonOT">POT</a>
+      year: 2022-now
+      description: Contributing to the Python Optimal Transport Library.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Optimal Transport
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - (Generalised) Wasserstein Barycentres
+        - The Sliced Wasserstein Distance
+        - Gaussian Mixture Model Optimal Transport
+    - title: Signal Processing
       items:
-        - Description 1.
-        - Description 2.
+        - Graph (Laplacian) Learning
+        - Graph Signal Processing
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Mandarin Chinese
+    - Music (flute, saxophone)
+    - (Horrendous) chess
+    - Blender modelling and animation
+    - speedrunning (<a href="https://www.speedrun.com/smb/run/y60knqjy">37th world-wide at Super Meat Boy full-game runs</a>)

@@ -2,11 +2,15 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: #Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+### Université Paris-Cité
 
-Organize your courses by years, topics, or universities, however you like!
+- 2022-2023: Chargé de TD Maths et Calcul 1 (License 1 Maths-Info): [Moodle](https://moodle.u-paris.fr/course/view.php?id=2351).
+
+### Institut de Technologie du Cambdoge
+
+- 2018-2019: TA teaching gifted undergrad students full-time for the preparation of the entry exam to Ecole Polytechnique: [course notes](https://github.com/eloitanguy/maths/blob/main/Pr%C3%A9pa/prep_class.pdf).

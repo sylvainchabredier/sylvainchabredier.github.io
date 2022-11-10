@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - eloitanguy
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - PythonOT/POT
+  - eloitanguy/maths
+  - eloitanguy/iptools 
+  - eloitanguy/wikidiver
