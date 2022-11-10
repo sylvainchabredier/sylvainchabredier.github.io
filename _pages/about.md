@@ -6,7 +6,7 @@ subtitle: PhD student under the supervision of Julie Delon and Agnès Desolneux.
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   address: >
     <p>725C1, MAP5, Université Paris-Cité</p>
