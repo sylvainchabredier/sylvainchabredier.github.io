@@ -15,7 +15,11 @@ nav_order: 5
 
 Corrections d'interrogations:
 
+- Géométrie et Déterminants (Merci Guillaume Sérieys): [pdf](https://eloitanguy.github.io/assets/pdf/MC2_interro1.pdf)
+
 - Intégrales et primitives: [pdf](https://eloitanguy.github.io/assets/pdf/MC2_interro2.pdf)
+
+- Intégrales Impropres (Merci Guillaume Sérieys) [pdf](https://eloitanguy.github.io/assets/pdf/MC2_interro3.pdf)
 
 - Séries Numériques: [pdf](https://eloitanguy.github.io/assets/pdf/MC2_interro4.pdf)
 
