@@ -15,9 +15,9 @@ nav_order: 5
 
 Corrections d'interrogations:
 
-- Intégrales et primitives: [pdf](https://eloitanguy.github.io/MC2_interro2.pdf)
+- Intégrales et primitives: [pdf](https://eloitanguy.github.io/assets/pdf/MC2_interro2.pdf)
 
-- Séries Numériques: [pdf](https://eloitanguy.github.io/MC2_interro4.pdf)
+- Séries Numériques: [pdf](https://eloitanguy.github.io/assets/pdf/MC2_interro4.pdf)
 
 #### MC1
 

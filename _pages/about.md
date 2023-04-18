@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student under the supervision of Julie Delon and Agnès Desolneux.
+subtitle: PhD student under the supervision of [Julie Delon](https://judelo.github.io/) and [Agnès Desolneux](https://desolneux.perso.math.cnrs.fr/).
 
 profile:
   align: right
