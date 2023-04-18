@@ -23,6 +23,6 @@ Corrections d'interrogations:
 
 2022-2023: Chargé de TD Maths et Calcul 1 (License 1 Maths-Info): [Moodle](https://moodle.u-paris.fr/course/view.php?id=2351).
 
-### Institut de Technologie du Cambdoge
+### Institut de Technologie du Cambodge
 
 2018-2019: TA teaching gifted undergrad students full-time for the preparation of the entry exam to Ecole Polytechnique: [course notes](https://eloitanguy.github.io/prep_class.pdf).
