@@ -3,26 +3,43 @@
 
 
 @report{reportGWB,
-  abbr={GWB},
+  abbr={MASTER THESIS},
   title={[Report] Generalised Wasserstein Barycentres},
   author={Eloi Tanguy and Julie Delon and Rémi Flamary},
   abstract={We generalise Wasserstein Barycentres, allowing the computation of barycentres between measures in different spaces. We provide efficient solvers for this new problem, and study a particular case which corresponds to a reconstruction problem. Studying the properties of this problem, we draw partial conclusions on the optima of the discrete Sliced Wasserstein Distance.},
   year={2022},
   month={September},
   pdf={GWB_report.pdf},
-  selected={true}
+  selected={true},
+  journal={Master Thesis},
+  bibtex_show={true}
 }
 
-@misc{tanguy2023reconstructing,
-      title={Reconstructing discrete measures from projections. Consequences on the empirical Sliced Wasserstein Distance}, 
-      abbr={RECON},
-      author={Eloi Tanguy and Rémi Flamary and Julie Delon},
-      abstract={This paper deals with the reconstruction of a discrete measure \(\gamma_Z\ \) on \(R^d\) from the knowledge of its pushforward measures \(P_i\)#\(\gamma_Z\) linear applications \(P_i: R^d \rightarrow R^{h}\) (for instance projections onto subspaces). The measure \(\gamma_Z\ \) being fixed, assuming that the rows of the matrices \(P_i\) are independent realizations of laws which do not give mass to hyperplanes, we show that if \(\sum_i h_i > d\), this reconstruction problem has almost certainly a unique solution. This holds for any number of points in \(\gamma_Z\). A direct consequence of this result is an almost-sure separability property on the empirical Sliced Wasserstein distance.},
-      year={2023},
-      month={April},
-      eprint={2304.12029},
-      archivePrefix={arXiv},
-      primaryClass={math.PR},
-      pdf={reconstruction.pdf},
-      selected={true}
+@Article{tanguy2023discrete_sw_losses,
+  abbr={PREPRINT},
+  author  = {Tanguy, Eloi and Flamary, R{\'e}mi and Delon, Julie},
+  journal = {arXiv preprint arXiv:2307.10352},
+  title   = {Properties of Discrete Sliced {W}asserstein Losses},
+  year    = {2023},
+  month   = {July},
+  abstract={The Sliced Wasserstein (SW) distance has become a popular alternative to the Wasserstein distance for comparing probability measures. Widespread applications include image processing, domain adaptation and generative modelling, where it is common to optimise some parameters in order to minimise SW, which serves as a loss function between discrete probability measures (since measures admitting densities are numerically unattainable). All these optimisation problems bear the same sub-problem, which is minimising the Sliced Wasserstein energy. In this paper we study the properties of  \(E: Y \longmapsto SW_2^2(\gamma_Y, \gamma_Z)\), i.e. the SW distance between two uniform discrete measures with the same amount of points as a function of the support \(Y\) of one of the measures. We investigate the regularity and optimisation properties of this energy, as well as its Monte-Carlo approximation \(E_p\) (estimating the expectation in SW using only $p$ samples) and show convergence results on the critical points of \(E_p\) to those of \(E\), as well as an almost-sure uniform convergence. Finally, we show that in a certain sense, Stochastic Gradient Descent methods minimising \(E\) and \(E_p\) converge towards (Clarke) critical points of these energies. },
+  pdf={slicedloss.pdf},
+  slides={slicedloss_slides.pdf},
+  selected={true},
+  arxiv={2307.10352},
+  bibtex_show={true}
+}
+
+@Article{tanguy2023reconstructing,
+  abbr={PREPRINT},
+  author  = {Tanguy, Eloi and Flamary, R{\'e}mi and Delon, Julie},
+  journal = {arXiv preprint arXiv:2304.12029},
+  title   = {Reconstructing discrete measures from projections. Consequences on the empirical Sliced {W}asserstein Distance},
+  year    = {2023},
+  month   = {April},
+  abstract={This paper deals with the reconstruction of a discrete measure \(\gamma_Z\ \) on \(R^d\) from the knowledge of its pushforward measures \(P_i\)#\(\gamma_Z\) linear applications \(P_i: R^d \rightarrow R^{h}\) (for instance projections onto subspaces). The measure \(\gamma_Z\ \) being fixed, assuming that the rows of the matrices \(P_i\) are independent realizations of laws which do not give mass to hyperplanes, we show that if \(\sum_i h_i > d\), this reconstruction problem has almost certainly a unique solution. This holds for any number of points in \(\gamma_Z\). A direct consequence of this result is an almost-sure separability property on the empirical Sliced Wasserstein distance.},
+  pdf={reconstruction.pdf},
+  selected={true},
+  arxiv={2304.12029},
+  bibtex_show={true}
 }
