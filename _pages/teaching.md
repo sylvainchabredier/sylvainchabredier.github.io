@@ -7,11 +7,21 @@ nav: true
 nav_order: 5
 ---
 
+### Master MVA
+
+Project supervisor for the [Imaging](https://perso.telecom-paristech.fr/gousseau/MVA/) and [Generative Modelling](https://generativemodelingmva.github.io/) courses.
+
 ### Université Paris-Cité
 
-#### MC2
+#### MC2 2022-2024
 
-2022-2023: Chargé de TD Maths et Calcul 2 (License 1 Maths-Info): [Moodle](https://moodle.u-paris.fr/course/view.php?id=2354).
+Chargé de TD Maths et Calcul 2  (TD numéro 2, License 1 Maths-Info): [Moodle](https://moodle.u-paris.fr/course/view.php?id=2354).
+
+Fiche de rédaction pour les changements de variables [pdf](https://eloitanguy.github.io/assets/pdf/MC2_cdv.pdf)
+
+#### MC2 2022-2023
+
+Chargé de TD Maths et Calcul 2 (License 1 Maths-Info): [Moodle](https://moodle.u-paris.fr/course/view.php?id=2354).
 
 Corrections d'interrogations:
 
@@ -23,10 +33,10 @@ Corrections d'interrogations:
 
 - Séries Numériques: [pdf](https://eloitanguy.github.io/assets/pdf/MC2_interro4.pdf)
 
-#### MC1
+#### MC1 2022-2023 et 2023-2024
 
-2022-2023: Chargé de TD Maths et Calcul 1 (License 1 Maths-Info): [Moodle](https://moodle.u-paris.fr/course/view.php?id=2351).
+Chargé de TD Maths et Calcul 1 (License 1 Maths-Info): [Moodle](https://moodle.u-paris.fr/course/view.php?id=2351).
 
 ### Institut de Technologie du Cambodge
 
-2018-2019: TA teaching gifted undergrad students full-time for the preparation of the entry exam to Ecole Polytechnique: [course notes](https://eloitanguy.github.io/prep_class.pdf).
+2018-2019: TA teaching gifted undergrad students full-time for the preparation of the entry exam to Ecole Polytechnique: [course notes](https://eloitanguy.github.io/assets/pdf/prep_class.pdf).
