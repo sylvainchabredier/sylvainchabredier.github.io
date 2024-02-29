@@ -13,7 +13,7 @@ Project supervisor for the [Imaging](https://perso.telecom-paristech.fr/gousseau
 
 ### Université Paris-Cité
 
-#### MC2 2022-2024
+#### MC2 2023-2024
 
 Chargé de TD Maths et Calcul 2  (TD numéro 2, License 1 Maths-Info): [Moodle](https://moodle.u-paris.fr/course/view.php?id=2354).
 
