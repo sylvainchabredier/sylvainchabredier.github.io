@@ -23,6 +23,8 @@ Corrections d'interrogations:
 
 - Algèbre Linéaire et Déterminants: [pdf](https://eloitanguy.github.io/assets/pdf/MC2_2024_TD2_interro1.pdf)
 
+- Calcul de Primitives et Intégrales Impropres [pdf](https://eloitanguy.github.io/assets/pdf/MC2_2024_TD2_interro3.pdf)
+
 #### MC2 2022-2023
 
 Chargé de TD Maths et Calcul 2 (License 1 Maths-Info): [Moodle](https://moodle.u-paris.fr/course/view.php?id=2354).
