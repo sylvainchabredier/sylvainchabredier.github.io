@@ -38,8 +38,9 @@
   author  = {Tanguy, Eloi and Flamary, R{\'e}mi and Delon, Julie},
   journal = {Mathematics of Computation},
   title   = {Properties of Discrete Sliced {W}asserstein Losses},
+  month   = {June},
   year    = {2024},
-  abstract={The Sliced Wasserstein (SW) distance has become a popular alternative to the Wasserstein distance for comparing probability measures. Widespread applications include image processing, domain adaptation and generative modelling, where it is common to optimise some parameters in order to minimise SW, which serves as a loss function between discrete probability measures (since measures admitting densities are numerically unattainable). All these optimisation problems bear the same sub-problem, which is minimising the Sliced Wasserstein energy. In this paper we study the properties of  \(E: Y \longmapsto SW_2^2(\gamma_Y, \gamma_Z)\), i.e. the SW distance between two uniform discrete measures with the same amount of points as a function of the support \(Y \in R^{n \times d}\) of one of the measures. We investigate the regularity and optimisation properties of this energy, as well as its Monte-Carlo approximation \(E_p\) (estimating the expectation in SW using only $p$ samples) and show convergence results on the critical points of \(E_p\)$ to those of $\(E\)$, as well as an almost-sure uniform convergence and a uniform Central Limit result on the process \(E_p\). Finally, we show that in a certain sense, Stochastic Gradient Descent methods minimising \(E\) and \(E_p\) converge towards (Clarke) critical points of these energies.  },
+  abstract={The Sliced Wasserstein (SW) distance has become a popular alternative to the Wasserstein distance for comparing probability measures. Widespread applications include image processing, domain adaptation and generative modelling, where it is common to optimise some parameters in order to minimise SW, which serves as a loss function between discrete probability measures (since measures admitting densities are numerically unattainable). All these optimisation problems bear the same sub-problem, which is minimising the Sliced Wasserstein energy. In this paper we study the properties of  \(E: Y \longmapsto SW_2^2(\gamma_Y, \gamma_Z)\), i.e. the SW distance between two uniform discrete measures with the same amount of points as a function of the support \(Y \in R^{n \times d}\) of one of the measures. We investigate the regularity and optimisation properties of this energy, as well as its Monte-Carlo approximation \(E_p\) (estimating the expectation in SW using only \(p\) samples) and show convergence results on the critical points of \(E_p\) to those of $\(E\)$, as well as an almost-sure uniform convergence and a uniform Central Limit result on the process \(E_p\). Finally, we show that in a certain sense, Stochastic Gradient Descent methods minimising \(E\) and \(E_p\) converge towards (Clarke) critical points of these energies.  },
   pdf={slicedloss.pdf},
   slides={slicedloss_slides.pdf},
   selected={true},
@@ -58,5 +59,19 @@
   pdf={reconstruction.pdf},
   selected={true},
   arxiv={2304.12029},
+  bibtex_show={true}
+}
+
+@Article{tanguy2024constrained,
+  abbr={PREPRINT},
+  author  = {Tanguy, Eloi and Desolneux, Agn\`es and Delon, Julie},
+  journal = {arXiv preprint arXiv:2407.13445},
+  title   = {Constrained Approximate Optimal Transport Maps},
+  year    = {2024},
+  month   = {July},
+  abstract={We investigate finding a map \(g\) within a function class \(G\ \) that minimises an Optimal Transport (OT) cost between a target measure \(\nu\ \) and the image by \(g\ \) of a source measure \(\mu\ \). This is relevant when an OT map from \(\mu\ \) to \(\nu\ \) does not exist or does not satisfy the desired constraints of \(G\). We address existence and uniqueness for generic subclasses of \(L\)-Lipschitz functions, including gradients of (strongly) convex functions and typical Neural Networks. We explore a variant that approaches a transport plan, showing equivalence to a map problem in some cases. For the squared Euclidean cost, we propose alternating minimisation over a transport plan \(\pi\ \) and map \(g\ \), with the optimisation over \(g\ \) being the \(L^2\ \) projection on \(G\ \) of the barycentric mapping \(\overline{\pi}\). In dimension one, this global problem equates the \(L^2\ \) projection of \(\overline{\pi^*}\ \) onto \(G\ \) for an OT plan \(\pi^*\ \) between \(\mu\ \) and \(\nu\ \), but this does not extend to higher dimensions. We introduce a simple kernel method to find $g$ within a Reproducing Kernel Hilbert Space in the discrete case. Finally, we present numerical methods for \(L\)-Lipschitz gradients of \(\ell\)-strongly convex potentials..},
+  pdf={constrained_maps.pdf},
+  selected={true},
+  arxiv={2407.13445},
   bibtex_show={true}
 }
