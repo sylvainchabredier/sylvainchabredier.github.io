@@ -18,6 +18,8 @@
       year: 2022 - now
       description:
         - Generalised Wasserstein Barycentres
+        - Sliced Wasserstein Distance
+        - Optimal Transport Maps
         - Optimal Transport between Gaussian Mixture Models
         - title: Under the supervision of
           contents:
