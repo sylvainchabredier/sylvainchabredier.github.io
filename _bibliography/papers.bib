@@ -1,7 +1,6 @@
 ---
 ---
 
-
 @report{reportGWB,
   abbr={MASTER THESIS},
   title={[Report] Generalised Wasserstein Barycentres},
@@ -32,6 +31,34 @@
   issn={2835-8856},
 }
 
+@Article{tanguy2024computing,
+  abbr={PREPRINT},
+  author  = {Tanguy, Eloi and Delon, Julie and Gozlan, Nathaël},
+  journal = {arXiv preprint arXiv:0.0},
+  title   = {Computing Barycentres of Measures for Generic Transport Costs},
+  year    = {2024},
+  month   = {December},
+  abstract={Wasserstein barycentres represent average distributions between multiple probability measures for the Wasserstein distance. 
+  The numerical computation of Wasserstein barycentres is notoriously challenging. A common approach is to use Sinkhorn iterations, where an entropic regularisation term is introduced to make the problem more manageable. Another approach involves using fixed-point methods, akin to those employed for computing Fréchet means on manifolds. The convergence of such methods for 2-Wasserstein barycentres, specifically with a quadratic cost function and absolutely continuous measures, was studied by Alvarez-Esteban et al. (2016). In this paper, we delve into the main ideas behind this fixed-point method and explore how it can be generalised to accommodate more diverse transport costs and generic probability measures, thereby extending its applicability to a broader range of problems. We show convergence results for this approach and illustrate its numerical behaviour on several barycentre problems.},
+  pdf={ot_bar.pdf},
+  selected={true},
+  arxiv={0.0},
+  bibtex_show={true}
+}
+
+@Article{tanguy2024constrained,
+  abbr={PREPRINT},
+  author  = {Tanguy, Eloi and Desolneux, Agn\`es and Delon, Julie},
+  journal = {arXiv preprint arXiv:2407.13445},
+  title   = {Constrained Approximate Optimal Transport Maps},
+  year    = {2024},
+  month   = {July},
+  abstract={We investigate finding a map \(g\) within a function class \(G\ \) that minimises an Optimal Transport (OT) cost between a target measure \(\nu\ \) and the image by \(g\ \) of a source measure \(\mu\ \). This is relevant when an OT map from \(\mu\ \) to \(\nu\ \) does not exist or does not satisfy the desired constraints of \(G\). We address existence and uniqueness for generic subclasses of \(L\)-Lipschitz functions, including gradients of (strongly) convex functions and typical Neural Networks. We explore a variant that approaches a transport plan, showing equivalence to a map problem in some cases. For the squared Euclidean cost, we propose alternating minimisation over a transport plan \(\pi\ \) and map \(g\ \), with the optimisation over \(g\ \) being the \(L^2\ \) projection on \(G\ \) of the barycentric mapping \(\overline{\pi}\). In dimension one, this global problem equates the \(L^2\ \) projection of \(\overline{\pi^*}\ \) onto \(G\ \) for an OT plan \(\pi^*\ \) between \(\mu\ \) and \(\nu\ \), but this does not extend to higher dimensions. We introduce a simple kernel method to find $g$ within a Reproducing Kernel Hilbert Space in the discrete case. Finally, we present numerical methods for \(L\)-Lipschitz gradients of \(\ell\)-strongly convex potentials..},
+  pdf={constrained_maps.pdf},
+  selected={true},
+  arxiv={2407.13445},
+  bibtex_show={true}
+}
 
 @Article{tanguy2023discrete_sw_losses,
   abbr={MCOM},
@@ -65,33 +92,4 @@
   bibtex_show={true},
   doi = {10.5802/crmath.601},
   url={https://comptes-rendus.academie-sciences.fr/mathematique/articles/10.5802/crmath.601/}
-}
-
-@Article{tanguy2024constrained,
-  abbr={PREPRINT},
-  author  = {Tanguy, Eloi and Desolneux, Agn\`es and Delon, Julie},
-  journal = {arXiv preprint arXiv:2407.13445},
-  title   = {Constrained Approximate Optimal Transport Maps},
-  year    = {2024},
-  month   = {July},
-  abstract={We investigate finding a map \(g\) within a function class \(G\ \) that minimises an Optimal Transport (OT) cost between a target measure \(\nu\ \) and the image by \(g\ \) of a source measure \(\mu\ \). This is relevant when an OT map from \(\mu\ \) to \(\nu\ \) does not exist or does not satisfy the desired constraints of \(G\). We address existence and uniqueness for generic subclasses of \(L\)-Lipschitz functions, including gradients of (strongly) convex functions and typical Neural Networks. We explore a variant that approaches a transport plan, showing equivalence to a map problem in some cases. For the squared Euclidean cost, we propose alternating minimisation over a transport plan \(\pi\ \) and map \(g\ \), with the optimisation over \(g\ \) being the \(L^2\ \) projection on \(G\ \) of the barycentric mapping \(\overline{\pi}\). In dimension one, this global problem equates the \(L^2\ \) projection of \(\overline{\pi^*}\ \) onto \(G\ \) for an OT plan \(\pi^*\ \) between \(\mu\ \) and \(\nu\ \), but this does not extend to higher dimensions. We introduce a simple kernel method to find $g$ within a Reproducing Kernel Hilbert Space in the discrete case. Finally, we present numerical methods for \(L\)-Lipschitz gradients of \(\ell\)-strongly convex potentials..},
-  pdf={constrained_maps.pdf},
-  selected={true},
-  arxiv={2407.13445},
-  bibtex_show={true}
-}
-
-@Article{tanguy2024computing,
-  abbr={PREPRINT},
-  author  = {Tanguy, Eloi and Delon, Julie and Gozlan, Nathaël},
-  journal = {arXiv preprint arXiv:0.0},
-  title   = {Computing Barycentres of Measures for Generic Transport Costs},
-  year    = {2024},
-  month   = {December},
-  abstract={Wasserstein barycentres represent average distributions between multiple probability measures for the Wasserstein distance. 
-  The numerical computation of Wasserstein barycentres is notoriously challenging. A common approach is to use Sinkhorn iterations, where an entropic regularisation term is introduced to make the problem more manageable. Another approach involves using fixed-point methods, akin to those employed for computing Fréchet means on manifolds. The convergence of such methods for 2-Wasserstein barycentres, specifically with a quadratic cost function and absolutely continuous measures, was studied by Alvarez-Esteban et al. (2016). In this paper, we delve into the main ideas behind this fixed-point method and explore how it can be generalised to accommodate more diverse transport costs and generic probability measures, thereby extending its applicability to a broader range of problems. We show convergence results for this approach and illustrate its numerical behaviour on several barycentre problems.},
-  pdf={ot_bar.pdf},
-  selected={true},
-  arxiv={0.0},
-  bibtex_show={true}
 }
