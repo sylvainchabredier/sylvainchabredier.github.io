@@ -1,40 +1,10 @@
 ---
 ---
 
-@report{reportGWB,
-  abbr={MASTER THESIS},
-  title={[Report] Generalised Wasserstein Barycentres},
-  author={Eloi Tanguy and Julie Delon and Rémi Flamary},
-  abstract={We generalise Wasserstein Barycentres, allowing the computation of barycentres between measures in different spaces. We provide efficient solvers for this new problem, and study a particular case which corresponds to a reconstruction problem. Studying the properties of this problem, we draw partial conclusions on the optima of the discrete Sliced Wasserstein Distance.},
-  year={2022},
-  month={September},
-  pdf={GWB_report.pdf},
-  selected={true},
-  journal={Master Thesis},
-  bibtex_show={true}
-}
-
-@Article{tanguy2023convergence_sgd_sw_nn,
-  abbr={TMLR},
-  author  = {Eloi Tanguy},
-  journal = {Transactions on Machine Learning Research},
-  title   = {Convergence of SGD for Training Neural Networks with Sliced {W}asserstein Losses},
-  year    = {2023},
-  month   = {October},
-  abstract={Optimal Transport has sparked vivid interest in recent years, in particular thanks to the Wasserstein distance, which provides a geometrically sensible and intuitive way of comparing probability measures. For computational reasons, the Sliced Wasserstein (SW) distance was introduced as an alternative to the Wasserstein distance, and has seen uses for training generative Neural Networks (NNs). While convergence of Stochastic Gradient Descent (SGD) has been observed practically in such a setting, there is to our knowledge no theoretical guarantee for this observation. Leveraging recent works on convergence of SGD on non-smooth and non-convex functions by Bianchi et al. (2022), we aim to bridge that knowledge gap, and provide a realistic context under which fixed-step SGD trajectories for the SW loss on NN parameters converge. More precisely, we show that the trajectories approach the set of (sub)-gradient flow equations as the step decreases. Under stricter assumptions, we show a much stronger convergence result for noised and projected SGD schemes, namely that the long-run limits of the trajectories approach a set of generalised critical points of the loss function.},
-  pdf={nn_loss.pdf},
-  selected={true},
-  arxiv={2307.11714},
-  bibtex_show={true},
-  year={2023},
-  url={https://openreview.net/forum?id=aqqfB3p9ZA},
-  issn={2835-8856},
-}
-
 @Article{tanguy2024computing,
   abbr={PREPRINT},
   author  = {Tanguy, Eloi and Delon, Julie and Gozlan, Nathaël},
-  journal = {arXiv preprint arXiv:0.0},
+  journal = {arXiv preprint arXiv:2501.04016},
   title   = {Computing Barycentres of Measures for Generic Transport Costs},
   year    = {2024},
   month   = {December},
@@ -42,7 +12,7 @@
   The numerical computation of Wasserstein barycentres is notoriously challenging. A common approach is to use Sinkhorn iterations, where an entropic regularisation term is introduced to make the problem more manageable. Another approach involves using fixed-point methods, akin to those employed for computing Fréchet means on manifolds. The convergence of such methods for 2-Wasserstein barycentres, specifically with a quadratic cost function and absolutely continuous measures, was studied by Alvarez-Esteban et al. (2016). In this paper, we delve into the main ideas behind this fixed-point method and explore how it can be generalised to accommodate more diverse transport costs and generic probability measures, thereby extending its applicability to a broader range of problems. We show convergence results for this approach and illustrate its numerical behaviour on several barycentre problems.},
   pdf={ot_bar.pdf},
   selected={true},
-  arxiv={0.0},
+  arxiv={2501.04016},
   bibtex_show={true}
 }
 
@@ -92,4 +62,34 @@
   bibtex_show={true},
   doi = {10.5802/crmath.601},
   url={https://comptes-rendus.academie-sciences.fr/mathematique/articles/10.5802/crmath.601/}
+}
+
+@report{reportGWB,
+  abbr={MASTER THESIS},
+  title={[Report] Generalised Wasserstein Barycentres},
+  author={Eloi Tanguy and Julie Delon and Rémi Flamary},
+  abstract={We generalise Wasserstein Barycentres, allowing the computation of barycentres between measures in different spaces. We provide efficient solvers for this new problem, and study a particular case which corresponds to a reconstruction problem. Studying the properties of this problem, we draw partial conclusions on the optima of the discrete Sliced Wasserstein Distance.},
+  year={2022},
+  month={September},
+  pdf={GWB_report.pdf},
+  selected={true},
+  journal={Master Thesis},
+  bibtex_show={true}
+}
+
+@Article{tanguy2023convergence_sgd_sw_nn,
+  abbr={TMLR},
+  author  = {Eloi Tanguy},
+  journal = {Transactions on Machine Learning Research},
+  title   = {Convergence of SGD for Training Neural Networks with Sliced {W}asserstein Losses},
+  year    = {2023},
+  month   = {October},
+  abstract={Optimal Transport has sparked vivid interest in recent years, in particular thanks to the Wasserstein distance, which provides a geometrically sensible and intuitive way of comparing probability measures. For computational reasons, the Sliced Wasserstein (SW) distance was introduced as an alternative to the Wasserstein distance, and has seen uses for training generative Neural Networks (NNs). While convergence of Stochastic Gradient Descent (SGD) has been observed practically in such a setting, there is to our knowledge no theoretical guarantee for this observation. Leveraging recent works on convergence of SGD on non-smooth and non-convex functions by Bianchi et al. (2022), we aim to bridge that knowledge gap, and provide a realistic context under which fixed-step SGD trajectories for the SW loss on NN parameters converge. More precisely, we show that the trajectories approach the set of (sub)-gradient flow equations as the step decreases. Under stricter assumptions, we show a much stronger convergence result for noised and projected SGD schemes, namely that the long-run limits of the trajectories approach a set of generalised critical points of the loss function.},
+  pdf={nn_loss.pdf},
+  selected={true},
+  arxiv={2307.11714},
+  bibtex_show={true},
+  year={2023},
+  url={https://openreview.net/forum?id=aqqfB3p9ZA},
+  issn={2835-8856},
 }
