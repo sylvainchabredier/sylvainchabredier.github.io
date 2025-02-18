@@ -4,7 +4,7 @@ permalink: /guandan/
 title: guandan
 description: Rules of Guandan
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 The sections with ⭐ are required to play, the others are optional if one of the players already knows the rules.
