@@ -7,8 +7,9 @@ nav: true
 nav_order: 6
 ---
 
-- 18/02/2025 [Equipe-Projet Inria OCKHAM](https://team.inria.fr/ockham/), ENS
-  Lyon, 
+- 18/02/2025 [Séminaire
+  MLSP](https://www.ens-lyon.fr/PHYSIQUE/seminars/machine-learning-and-signal-processing),
+  [Equipe-Projet Inria OCKHAM](https://team.inria.fr/ockham/), ENS Lyon, 
   
   *Properties of Discrete Sliced Wasserstein Losses*
   [slides](https://eloitanguy.github.io/assets/pdf/slicedloss_slides.pdf)
