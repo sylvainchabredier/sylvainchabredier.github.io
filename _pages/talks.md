@@ -57,7 +57,9 @@ nav_order: 6
   Sliced Wasserstein Losses*
   [slides](https://eloitanguy.github.io/assets/pdf/slicedloss_slides.pdf)
 
-- 26/01/2024 MAP5, Séminaire des Doctorants, *An Introduction to Reproducing
+- 26/01/2024 MAP5, Séminaire des Doctorants, 
+
+  *An Introduction to Reproducing
   Kernel Hilbert Spaces and Kernel Interpolation*
 
 - 23/01/2024 Lancement [PEPR-PDE-IA](https://pde-ai.math.cnrs.fr/page/events/),
