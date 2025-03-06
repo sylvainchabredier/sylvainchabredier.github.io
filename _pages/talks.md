@@ -7,6 +7,14 @@ nav: true
 nav_order: 6
 ---
 
+- 06/03/2025 [Applied Mathematics
+  Seminar](https://cermics-lab.enpc.fr/seminaires/seminaire-du-laboratoire/),
+  [CERMICS](https://cermics-lab.enpc.fr/),
+  
+  *Computing Barycenters of
+  Measures for Generic Transport Costs*
+  [slides](https://eloitanguy.github.io/assets/pdf/ot_bar_slides.pdf)
+
 - 18/02/2025 [Séminaire
   MLSP](https://www.ens-lyon.fr/PHYSIQUE/seminars/machine-learning-and-signal-processing),
   [Equipe-Projet Inria OCKHAM](https://team.inria.fr/ockham/), ENS Lyon, 
