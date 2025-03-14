@@ -3,10 +3,10 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Eloi
+first_name: Sylvain
 middle_name: 
-last_name: TANGUY
-email: eloi.tanguy@math.cnrs.fr
+last_name: Chabredier
+email: sylvain.chabredier[atchoom]math.cnrs.fr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Eloi Tanguy's website
 # footer_text: >
@@ -67,10 +67,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: eloitanguy # your GitHub user name
+github_username: sylvainchabredier # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
-linkedin_username: eloi-tanguy-37280a194 # your LinkedIn user name
+linkedin_username: sylvain-chabredier-24714a270 # your LinkedIn user name
 scholar_userid: S_4v6hoAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
